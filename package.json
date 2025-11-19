@@ -1,0 +1,14 @@
+{
+  "name": "zknon-zk-notes",
+  "version": "1.0.0",
+  "description": "ZKNON zk-note withdraw circuit and prover server",
+  "main": "prover-server.js",
+  "scripts": {
+    "start": "node prover-server.js"
+  },
+  "dependencies": {
+    "circomlib": "^2.1.5",
+    "express": "^4.19.2",
+    "snarkjs": "^0.7.4"
+  }
+}
