@@ -76,7 +76,6 @@ template ZkNonWithdraw(depth) {
     // 4. Simple sanity check: amount must be non-zero
     amount !== 0;
 
-    // Optional: you can add more constraints here, e.g.:
     // - amount <= MAX_AMOUNT
     // - recipient != 0
 }
